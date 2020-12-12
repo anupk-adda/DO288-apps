@@ -7,7 +7,7 @@ echo "---> Enabling s2i support in httpd24 image"
 config_s2i
 
 echo "---> Installing application source"
-cp -Rf /tmp/src/.html ./
+cp -Rf /tmp/src/*.html ./
 
 # Fix source directory permissions
 fix-permissions ./
